@@ -16,7 +16,8 @@ public class StudentsUI {
 	 public void showMessage() {
 		 System.out.println("------Welcome-----");
 		 System.out.println("\n1. Create Account\n2.Login");
-		System.out.println("Chosse Option :");
+		 System.out.println();
+		System.out.println(" Option :");
 		int option=scan.nextInt();
 		switch(option) {
 		case 1: createUser();
